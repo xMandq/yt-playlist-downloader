@@ -1,21 +1,25 @@
-✨ how to get cookies from firefox:
+# YouTube Playlist Downloader with Cookies
 
-1️⃣ Install this Firefox extension:
-  1. Go to https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/
-  2. Click "Add to Firefox"
-  3. Click "Add" in the popup
-  4. Click "Okay, Got It"
-2️⃣ Export your YouTube cookies:
-  1. Go to YouTube.com and make sure you're logged in
-  2. Click the extension icon (looks like a cookie)
-  3. Click "Current Site"
-  4. Save the file as cookies.txt on your desktop
+## Steps to Export Cookies from Firefox
 
-💞 After you've exported the cookies and saved the script:
-  1. Make sure the cookies.txt file is on your desktop
-  2. Run the Python script
-  3. It should now be able to access the playlist using your YouTube authentication
+1. **Install Firefox Extension**:
+   - Visit [Cookies.txt Extension](https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/).
+   - Click "Add to Firefox" → "Add" → "Okay, Got It".
+   
+2. **Export YouTube Cookies**:
+   - Open [YouTube](https://youtube.com) and log in.
+   - Click the cookies extension icon (looks like a cookie).
+   - Click "Current Site".
+   - Save the file as `cookies.txt` on your desktop.
 
-Notes:
-python -m ensurepip --upgrade
-python -m pip install yt-dlp
+## Steps to Run Python Script
+
+1. Ensure you have Python and pip installed:
+   ```bash
+   `python -m ensurepip --upgrade`
+   `python -m pip install yt-dlp`
+   ```
+
+3. Make sure the `cookies.txt` file is on your desktop.
+
+4. Run the Python script to download YouTube playlists using your authentication from the cookies file.
